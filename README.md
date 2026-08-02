@@ -59,10 +59,6 @@ The project follows an end-to-end machine learning workflow, including data prep
 ### 1. Data Preprocessing
 
 * Loaded dataset
-* Checked missing values
-* Checked duplicate records
-* Exploratory Data Analysis (EDA)
-* Correlation analysis
 * Train-Test Split
 * Feature scaling using **StandardScaler**
 
