@@ -1,4 +1,4 @@
-# ⚡ Power Plant Energy Output Predictior
+# ⚡ Power Plant Energy Output Prediction System
 
 ## 📌 Overview
 
