@@ -1,4 +1,4 @@
-# ⚡ Power Plant Energy Output Prediction using Machine Learning & Deep Learning
+# ⚡ Power Plant Energy Output Predictior
 
 ## 📌 Overview
 
