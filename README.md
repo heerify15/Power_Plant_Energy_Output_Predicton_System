@@ -167,7 +167,7 @@ Power-Plant-Energy-Output-Prediction/
 │   └── power_plant_data.csv
 │
 ├── Notebook/
-│   └── powerplant_energy_predictor.ipynb
+│   └── powerplant_energy_output_predictor.ipynb
 │
 ├── Saved_Models/
 │   └── best_ANN_model.pt
