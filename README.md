@@ -172,6 +172,10 @@ Power-Plant-Energy-Output-Prediction/
 ├── Saved_Models/
 │   └── best_ANN_model.pt
 │
+├── Output/
+│   └── conclusion.txt
+│
+│
 ├── README.md
 ```
 
