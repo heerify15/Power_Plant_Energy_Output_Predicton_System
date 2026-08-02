@@ -1,0 +1,58 @@
+Power Plant Energy Output Prediction
+Model Performance Comparison Report
+===================================
+
+Objective:
+The objective of this project is to predict the Net Hourly Electrical Energy Output (PE)
+of a Combined Cycle Power Plant using Machine Learning and Deep Learning models.
+
+Models Evaluated:
+1. Artificial Neural Network (ANN)
+2. Linear Regression
+3. K-Nearest Neighbors (KNN)
+4. Support Vector Regressor (SVR)
+5. Decision Tree Regressor
+6. Random Forest Regressor
+7. AdaBoost Regressor
+8. Gradient Boosting Regressor
+9. Stacking Regressor
+
+
+Performance Summary:
+
+Model                         Train R2       Test R2
+----------------------------------------------------
+ANN                           0.9277         0.9315
+Linear Regression             0.9279         0.9314
+KNN                           0.9673         0.9521
+SVR                           0.9403         0.9432
+Decision Tree                 0.9668         0.9466
+Random Forest                 0.9579         0.9520
+AdaBoost                      0.9435         0.9425
+Gradient Boosting             0.9898         0.9700
+Stacking Regressor            0.9911         0.9702
+
+
+Conclusion:
+---------------
+Among all evaluated models, the Stacking Regressor achieved the highest
+performance with a Test R2 Score of 0.9702.
+
+The Gradient Boosting Regressor also performed exceptionally well with a
+Test R2 Score of 0.9700, showing strong capability in capturing complex
+non-linear relationships in the dataset.
+
+The ensemble models (Gradient Boosting and Stacking Regressor) outperformed
+individual regression algorithms because they combine multiple learners to
+reduce prediction error and improve generalization.
+
+The Artificial Neural Network achieved a Test R2 Score of 0.9315, demonstrating
+that deep learning can effectively model regression problems, but traditional
+ensemble methods performed better for this structured tabular dataset.
+
+Final Selected Model:
+---------------------
+Stacking Regressor
+
+Test R2 Score:
+0.9702
