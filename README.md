@@ -165,10 +165,12 @@ Power-Plant-Energy-Output-Prediction/
 ├── Notebook/
 │   └── powerplant_energy_output_prediction.ipynb
 │
-├── Saved_Models/
+├── Model/
 │   └── best_ANN_model.pt
 │
 ├── Output/
+|   ├── ANN_Train_best_fit_line.png
+|   ├── ANN_Test_best_fit_line.png
 │   └── conclusion.txt
 │
 │
