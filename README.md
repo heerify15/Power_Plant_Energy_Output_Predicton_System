@@ -171,6 +171,7 @@ Power-Plant-Energy-Output-Prediction/
 ├── Output/
 |   ├── ANN_Train_best_fit_line.png
 |   ├── ANN_Test_best_fit_line.png
+|   ├── loss_curve.png
 |   ├── stacking_reg_best_fit_line.png
 │   └── conclusion.txt
 │
